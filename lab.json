@@ -1,0 +1,19 @@
+{
+  "slug": "suikinkutsu-garden",
+  "title": "Suikinkutsu Garden",
+  "tagline": "Tune a buried garden pot, drop water, and listen for a bright note match.",
+  "kind": "demo",
+  "tags": ["audio", "game", "culture"],
+  "date": "2026-10-09",
+  "builtBy": "Virtual Company",
+  "entry": "demo/index.html",
+  "paper": {
+    "title": "A computational framework for the acoustic characterization of Suikinkutsu (water harp cave)",
+    "arxiv": "2610.11219",
+    "authors": ["Paul Haimes", "Alarith Uhde", "Daniel Moritz Marutschke"]
+  },
+  "novelty": "A note-matching water-drop toy combines synthesized pot resonance with an approachable tuning game; no known implementation (not verified).",
+  "description": "An offline browser sound toy inspired by suikinkutsu, where drops falling into a hidden garden vessel create resonant sounds.",
+  "howItWorks": "Adjust authored pot parameters to change a synthesized tone, then drop water to hear it and compare it with a target note. The paper's six descriptors motivate the listening context; this toy does not implement their analysis pipeline.",
+  "controls": "Click or tap the target note to hear it. Adjust the labeled sliders, then click or tap the water or Drop a note button to play and check the match. Keyboard users can tab through controls, use arrow keys on sliders, and press Space on the water button."
+}
